@@ -59,5 +59,16 @@ TESTS = {
             "answer": 4,
             "explanation": [["B", "I"], ["F", "Q"], ["I", "T"], ["Q", "X"]],
         },
+        {
+            "input": ["CGHIKLMNOQRSW"],
+            "answer": 3,
+            "explanation": [["G", "S"], ["C", "W"], ["K", "O"]],
+        },
+        {
+            "input": ["ABDEFJPTUVXY"],
+            "answer": 8,
+            "explanation": [["A", "B"], ["D", "E"], ["F", "F"], ["J", "J"],
+                            ["P", "P"], ["T", "T"], ["U", "V"], ["X", "Y"]],
+        },
     ],
 }
